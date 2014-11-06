@@ -66,7 +66,7 @@ public class CookieGet extends HttpServlet {
 			}
 		}
 		else{
-			out.println("<h2>Cookies not found</h2>");
+			out.println("<h2>No Cookies found</h2>");
 		}
 		out.println("</body></html>");
 	}
